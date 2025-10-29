@@ -105,7 +105,7 @@ function formatDate(dateString) {
     return `${year}년 ${month}월 ${day}일`;
 }
 
-// Giscus 댓글 시스템 로드
+// Giscus 댓글 시스템 로드 (2025-10-29 업데이트)
 function loadGiscus() {
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
