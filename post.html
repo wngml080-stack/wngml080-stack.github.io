@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="post-title">포스트 로딩 중...</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><a href="index.html">내 블로그</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="#about">소개</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle" aria-label="테마 전환">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="post-container">
+            <div class="post-header">
+                <h1 id="post-title-main">로딩 중...</h1>
+                <div class="post-meta">
+                    <span id="post-date"></span>
+                    <span id="post-tags"></span>
+                </div>
+            </div>
+            
+            <div id="post-content" class="post-content">
+                <p>포스트를 불러오는 중입니다...</p>
+            </div>
+
+            <div class="post-navigation">
+                <a href="index.html" class="back-button">← 목록으로 돌아가기</a>
+            </div>
+        </article>
+
+        <!-- Giscus 댓글 섹션 -->
+        <section class="comments-section">
+            <h2>댓글</h2>
+            <div id="giscus-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 내 블로그. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/post-loader.js"></script>
+</body>
+</html>
+
