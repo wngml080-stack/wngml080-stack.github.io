@@ -31,6 +31,20 @@ const posts = [
         date: '2025-10-29',
         excerpt: 'GitHub Discussions 기반의 Giscus 댓글 시스템을 설정하는 방법을 알아봅니다.',
         tags: ['Giscus', '댓글', '설정']
+    },
+    {
+        id: 'ai-news-trends-2025',
+        title: '2025년 주목해야 할 최신 AI 트렌드 🤖✨',
+        date: '2025-10-29',
+        excerpt: '24시간 AI 뉴스 앵커부터 숏폼 콘텐츠까지, 2025년 가장 뜨거운 AI 뉴스와 트렌드를 쉽게 정리했습니다.',
+        tags: ['AI', '인공지능', '트렌드', '뉴스']
+    },
+    {
+        id: 'cursor-ide-october-2025',
+        title: '2025년 10월, 커서 IDE가 바꾸는 코딩의 미래 🚀💻',
+        date: '2025-10-29',
+        excerpt: 'AI 기반 코드 에디터 Cursor IDE의 최신 소식과 핵심 기능을 초보자도 쉽게 이해할 수 있도록 정리했습니다.',
+        tags: ['Cursor', 'IDE', 'AI', '코딩', '개발도구']
     }
 ];
 
