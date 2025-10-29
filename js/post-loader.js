@@ -109,10 +109,10 @@ function formatDate(dateString) {
 function loadGiscus() {
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
-    script.setAttribute('data-repo', 'YOUR_GITHUB_USERNAME/YOUR_REPO_NAME'); // 여기를 수정하세요!
-    script.setAttribute('data-repo-id', 'YOUR_REPO_ID'); // GitHub에서 받은 repo-id로 변경
-    script.setAttribute('data-category', 'General'); // 또는 'Announcements'
-    script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID'); // GitHub에서 받은 category-id로 변경
+    script.setAttribute('data-repo', 'wngml080-stack/wngml080-stack.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOQLOp6w');
+    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category-id', 'DIC_kwDOQLOp684CxND9');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
